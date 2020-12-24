@@ -44,4 +44,9 @@ export default {
   styleResources: {
     scss: ['assets/scss/_mixins.scss'],
   },
+
+  target: 'static',
+  router: {
+    base: '/iimb-demo/',
+  },
 }
