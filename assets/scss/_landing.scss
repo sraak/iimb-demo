@@ -1,0 +1,61 @@
+// .landing {
+//   align-items: center;
+//   background-size: cover;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   min-height: 100vh;
+//   text-align: center;
+//   width: 100%;
+
+//   img {
+//     border-radius: 14rem;
+//     border: 1px #eee solid;
+//     mix-blend-mode: multiply;
+//     object-fit: cover;
+//     padding: 2rem;
+//     height: 28rem;
+//     width: 28rem;
+
+//     @include breakpointDF(mobm) {
+//       height: 20rem;
+//       width: 20rem;
+//     }
+//   }
+
+//   h1 {
+//     background-color: transparent;
+//     font-size: 6.4rem;
+
+//     @include breakpointDF(mobm) {
+//       font-size: 4.4rem;
+//     }
+//   }
+
+//   &__primary {
+//     color: $color-secondary;
+//     font-size: 1.2em;
+//     font-weight: 700;
+//   }
+
+//   &__secondary {
+//     color: lighten($color-secondary, 5%);
+//     font-size: 1.1em;
+//     font-weight: 700;
+//   }
+
+//   &__tertiary {
+//     color: lighten($color-secondary, 10%);
+//     font-weight: 700;
+//   }
+
+//   a {
+//     strong {
+//       color: inherit;
+//     }
+
+//     &:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
