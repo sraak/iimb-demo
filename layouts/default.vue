@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="header">
-      <img src="/img/iimb-logo.svg" alt="Logo" class="logo" />
+      <img src="/iimb-demo/img/iimb-logo.svg" alt="Logo" class="logo" />
       <h2 class="header__brand">Studio Topophilia</h2>
       <p class="header__tag">
         Forge connections with places through their everyday heritage and
