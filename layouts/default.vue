@@ -28,7 +28,7 @@
       </nuxt-link>
       <a href="#">Do More</a>
       <a href="#">Our Story</a>
-      <a href="#">Out Inspiration</a>
+      <a href="#">Our Inspiration</a>
     </div>
 
     <div class="space"></div>
