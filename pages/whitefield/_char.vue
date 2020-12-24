@@ -5,7 +5,7 @@
         class="grid__col grid__col--desk-3 grid__col--tabl-3 grid__col--mobm-12"
       >
         <img
-          :src="`/img/characters/detail/${$route.params.char}.png`"
+          :src="`/iimb-demo/img/characters/detail/${$route.params.char}.png`"
           class="image"
         />
       </div>
@@ -23,15 +23,15 @@
 
         <div class="characters">
           <nuxt-link to="/whitefield/char-01" class="character">
-            <img src="/img/characters/char-01.png" />
+            <img src="/iimb-demo/img/characters/char-01.png" />
             <label>Krishnaiah</label>
           </nuxt-link>
           <nuxt-link to="/whitefield/char-02" class="character">
-            <img src="/img/characters/char-02.png" />
+            <img src="/iimb-demo/img/characters/char-02.png" />
             <label>Arullamma</label>
           </nuxt-link>
           <nuxt-link to="/whitefield/char-03" class="character">
-            <img src="/img/characters/char-03.png" />
+            <img src="/iimb-demo/img/characters/char-03.png" />
             <label>Rose White</label>
           </nuxt-link>
         </div>
@@ -61,7 +61,7 @@
               class="video-container"
               @click.prevent="$refs.videoPopup.show()"
             >
-              <img src="/img/video-thumb.png" class="image" />
+              <img src="/iimb-demo/img/video-thumb.png" class="image" />
               <div class="video-overlay">
                 <i
                   class="far fa-play-circle"
@@ -97,7 +97,7 @@
 
     <popup ref="knowMore">
       <div>
-        <img src="/img/know-more.jpg" class="image" />
+        <img src="/iimb-demo/img/know-more.jpg" class="image" />
       </div>
       <div class="space"></div>
 
@@ -117,7 +117,7 @@
 
     <popup ref="videoPopup">
       <div class="video-container">
-        <video src="/video/oneday.mp4" controls></video>
+        <video src="/iimb-demo/video/oneday.mp4" controls></video>
       </div>
 
       <div class="space"></div>

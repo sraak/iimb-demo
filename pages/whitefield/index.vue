@@ -7,10 +7,10 @@
         <div class="video-container">
           <video ref="player" autoplay @ended="videoFinished = true">
             <source
-              src="/video/intro.webm"
+              src="/iimb-demo/video/intro.webm"
               type="video/webm; codecs=vp8,vorbis"
             />
-            <source src="/video/intro.mp4" type="video/mp4" />
+            <source src="/iimb-demo/video/intro.mp4" type="video/mp4" />
           </video>
           <div class="video-overlay" @click.prevent="playPause()"></div>
           <div v-if="videoFinished" class="video-overlay">
@@ -65,15 +65,15 @@
 
         <div class="characters">
           <nuxt-link to="/whitefield/char-01" class="character">
-            <img src="/img/characters/char-01.png" />
+            <img src="/iimb-demo/img/characters/char-01.png" />
             <label>Krishnaiah</label>
           </nuxt-link>
           <nuxt-link to="/whitefield/char-02" class="character">
-            <img src="/img/characters/char-02.png" />
+            <img src="/iimb-demo/img/characters/char-02.png" />
             <label>Arullamma</label>
           </nuxt-link>
           <nuxt-link to="/whitefield/char-03" class="character">
-            <img src="/img/characters/char-03.png" />
+            <img src="/iimb-demo/img/characters/char-03.png" />
             <label>Rose White</label>
           </nuxt-link>
         </div>

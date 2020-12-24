@@ -45,7 +45,7 @@
         <h4>Whitefield</h4>
 
         <div class="maps">
-          <img src="/img/maps.jpg" alt="" />
+          <img src="/iimb-demo/img/maps.jpg" alt="" />
         </div>
       </div>
     </div>
