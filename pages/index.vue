@@ -6,9 +6,9 @@
       >
         <h4>Articles</h4>
         <div class="stories">
-          <div to="/whitefield" class="stories__item story-item">
+          <nuxt-link to="/whitefield" class="stories__item story-item">
             <div class="story-item__image">
-              <img src=""/iimb-demo/img/art01.png" alt="" />
+              <img src="/iimb-demo/img/art01.png" alt="" />
             </div>
             <div class="story-item__desc">
               <p>
@@ -16,7 +16,7 @@
                 years ago. Know More and Immerse in a day in her life...
               </p>
             </div>
-          </div>
+          </nuxt-link>
           <div class="stories__item story-item story-item--dim">
             <div class="story-item__image">
               <img src="/iimb-demo/img/art02.png" alt="" />
