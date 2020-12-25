@@ -8,7 +8,7 @@
         <div class="stories">
           <div to="/whitefield" class="stories__item story-item">
             <div class="story-item__image">
-              <img src="https://picsum.photos/300/175" alt="" />
+              <img src=""/iimb-demo/img/art01.png" alt="" />
             </div>
             <div class="story-item__desc">
               <p>
@@ -19,7 +19,7 @@
           </div>
           <div class="stories__item story-item story-item--dim">
             <div class="story-item__image">
-              <img src="https://picsum.photos/300/175?a" alt="" />
+              <img src="/iimb-demo/img/art02.png" alt="" />
             </div>
             <div class="story-item__desc">
               <p>
@@ -29,7 +29,7 @@
           </div>
           <div class="stories__item story-item story-item--dim">
             <div class="story-item__image">
-              <img src="https://picsum.photos/300/175?b" alt="" />
+              <img src="/iimb-demo/img/art03.png" alt="" />
             </div>
             <div class="story-item__desc">
               <p>
