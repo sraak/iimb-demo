@@ -15,7 +15,7 @@
             @play="playing = true"
             @pause="playing = false"
           >
-            <source src="/iimb-demo/video/intro.mp4" type="video/mp4" />
+            <source src="/iimb-demo/video/intro1.mp4" type="video/mp4" />
           </video>
           <div class="video-overlay" @click.prevent="playPause()">
             <i
