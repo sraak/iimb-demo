@@ -6,10 +6,6 @@
       >
         <div class="video-container">
           <video ref="player" autoplay @ended="videoFinished = true">
-            <source
-              src="/iimb-demo/video/intro.webm"
-              type="video/webm; codecs=vp8,vorbis"
-            />
             <source src="/iimb-demo/video/intro.mp4" type="video/mp4" />
           </video>
           <div class="video-overlay" @click.prevent="playPause()"></div>
