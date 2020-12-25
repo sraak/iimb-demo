@@ -5,11 +5,21 @@
         class="grid__col grid__col--desk-6 grid__col--tabl-6 grid__col--mobm-12"
       >
         <div class="video-container">
-          <video ref="player" autoplay @ended="videoFinished = true">
+          <video
+            ref="player"
+            autoplay
+            @ended="
+              videoFinished = true
+              playing = false
+            "
+            @play="playing = true"
+            @pause="playing = false"
+          >
             <source src="/iimb-demo/video/intro.mp4" type="video/mp4" />
           </video>
           <div class="video-overlay" @click.prevent="playPause()">
             <i
+              v-show="!playing"
               class="far fa-play-circle"
               style="color: #eee; font-size: 4.8rem;"
             ></i>
@@ -111,6 +121,7 @@ export default {
   data() {
     return {
       videoFinished: false,
+      playing: false,
     }
   },
 
