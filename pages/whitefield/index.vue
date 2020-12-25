@@ -32,32 +32,32 @@
                 style="left: 48%; top: 16.5%;"
               ></div>
               <div class="tooltip" style="left: 48%; top: 16.5%;">
-                This tank, historically attributed to the Ganga period (1st
-                century CE), is one of the largest water-bodies of the city and
-                today, one of the most polluted as well.
+                The road from Hope Farm junction to Hoodi junction was laid by
+                Italian prisoners-of-war, who were housed in temporary barracks
+                near Kadugodi plantation, during World War II.
               </div>
               <div class="point point--two" style="left: 95%; top: 79%;"></div>
               <div class="tooltip" style="left: 95%; top: 79%;">
-                O Form is how the name ‘Hope Farm’ sounds in the local dialect.
-                A colonial-period farmhouse of that name once stood at this
-                junction. Know More (click leads to Rose White character page).
+                One of the benchmarks of the GTS (The Great Trignometrical
+                Survey) was located close to Kadugodi Railway station.
               </div>
               <div
                 class="point point--three"
                 style="left: 84%; top: 78.5%;"
               ></div>
               <div class="tooltip" style="left: 84%; top: 78.5%;">
-                One of the benchmarks of the GTS (The Great Trignometrical
-                Survey) was located close to Kadugodi Railway station.
+                O Form is how the name ‘Hope Farm’ sounds in the local dialect.
+                A colonial-period farmhouse of that name once stood at this
+                junction. Know More (click leads to Rose White character page).
               </div>
               <div
                 class="point point--four"
                 style="left: 12.5%; top: 74%;"
               ></div>
               <div class="tooltip" style="left: 12.5%; top: 74%;">
-                The road from Hope Farm junction to Hoodi junction was laid by
-                Italian prisoners-of-war, who were housed in temporary barracks
-                near Kadugodi plantation, during World War II.
+                This tank, historically attributed to the Ganga period (1st
+                century CE), is one of the largest water-bodies of the city and
+                today, one of the most polluted as well.
               </div>
             </div>
           </div>
