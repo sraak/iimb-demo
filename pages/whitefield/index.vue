@@ -8,7 +8,12 @@
           <video ref="player" autoplay @ended="videoFinished = true">
             <source src="/iimb-demo/video/intro.mp4" type="video/mp4" />
           </video>
-          <div class="video-overlay" @click.prevent="playPause()"></div>
+          <div class="video-overlay" @click.prevent="playPause()">
+            <i
+              class="far fa-play-circle"
+              style="color: #eee; font-size: 4.8rem;"
+            ></i>
+          </div>
           <div v-if="videoFinished" class="video-overlay">
             <div class="points">
               <div class="point point--one" style="left: 20%; top: 30%;"></div>
