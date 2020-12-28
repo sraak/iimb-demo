@@ -89,3 +89,7 @@ sw.*
 
 # Vim swap files
 *.swp
+
+iimb-demo/
+main-osx
+main-win32.exe
