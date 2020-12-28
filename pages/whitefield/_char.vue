@@ -97,7 +97,31 @@
 
     <popup ref="knowMore">
       <div>
-        <img src="/iimb-demo/img/know-more.jpg" class="image" />
+        <img :src="popupImages[currentImage]" class="image" />
+      </div>
+      <div class="space"></div>
+      <div class="text--center">
+        <a
+          href="#"
+          @click.prevent="
+            () => {
+              if (currentImage > 0) currentImage--
+            }
+          "
+        >
+          &larr; Prev
+        </a>
+        &nbsp;&nbsp;&nbsp;
+        <a
+          href="#"
+          @click.prevent="
+            () => {
+              if (currentImage < popupImages.length - 1) currentImage++
+            }
+          "
+        >
+          Next &rarr;
+        </a>
       </div>
       <div class="space"></div>
 
@@ -159,6 +183,12 @@ export default {
         'char-03':
           'lived in Whitefield over 150 years ago. She and her husband, D S White, were instrumental in establishing the Anglo-Indian settlement of Whitefield, which is so named after D S White. It was to be “one of thousand such settlements across India”.',
       },
+
+      popupImages: [
+        '/iimb-demo/img/know-more.jpg',
+        '/iimb-demo/img/know-more2.jpg',
+      ],
+      currentImage: 0,
     }
   },
 }
