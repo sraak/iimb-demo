@@ -28,7 +28,7 @@
           </nuxt-link>
           <nuxt-link to="/whitefield/char-02" class="character">
             <img src="/iimb-demo/img/characters/char-02.png" />
-            <label>Arullamma</label>
+            <label>Arulamma</label>
           </nuxt-link>
           <nuxt-link to="/whitefield/char-03" class="character">
             <img src="/iimb-demo/img/characters/char-03.png" />
@@ -102,9 +102,13 @@
       <div class="space"></div>
 
       <div class="text--center">
-        <a href="#" class="button button--primary button--large">
+        <span
+          href="#"
+          class="button button--disabled button--large"
+          @click.stop.prevent
+        >
           <i class="far fa-arrow-alt-circle-down"></i> &nbsp;&nbsp;Download Now
-        </a>
+        </span>
         <a
           href="#"
           class="button button--large"

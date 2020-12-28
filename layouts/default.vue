@@ -26,7 +26,17 @@
           <a href="#"><i class="fas fa-film"></i> Video</a>
         </div>
       </nuxt-link>
-      <a href="#">Do More</a>
+      <a href="#">
+        Do More
+        <div class="nav__menu">
+          <a href="#">Learn</a>
+          <a href="#">Engage</a>
+          <a href="#">Explore</a>
+          <a href="#">Immerse</a>
+          <a href="#">Personalize</a>
+          <a href="#">Create</a>
+        </div>
+      </a>
       <a href="#">Our Story</a>
       <a href="#">Our Inspiration</a>
     </div>
@@ -51,7 +61,8 @@
       </div>
 
       <div class="footer__links">
-        <a href="#">Instagram</a> | <a href="#">info@studiotopophilia.in</a> |
+        <a href="#">info@studiotopophilia.in</a> |
+        <a href="#"><i class="fab fa-instagram"></i></a> |
         <a href="#">+91 99721 14110</a>
       </div>
 

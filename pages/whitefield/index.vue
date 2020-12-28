@@ -56,7 +56,7 @@
               ></div>
               <div class="tooltip" style="left: 12.5%; top: 74%;">
                 This tank, historically attributed to the Ganga period (1st
-                century CE), is one of the largest water-bodies of the city and
+                century CE), is one of the largest water-bodies of the city, and
                 today, one of the most polluted as well.
               </div>
             </div>
@@ -70,9 +70,12 @@
         <p>
           Whitefield, Bengaluru is well-known as an IT hub - India’s Silicon
           Valley. What histories and geographies does this label hide? Come,
-          experience its unscripted stories. For topophiles, who know the area,
-          we add value by offering opportunities to re-look and re-imagine the
-          location, through well-researched character-based narratives.
+          experience its unscripted stories.
+        </p>
+        <p>
+          For topophiles, who know the area, we add value by offering
+          opportunities to re-look and re-imagine the location, through
+          well-researched character-based narratives.
         </p>
         <p>
           For budding topophiles, we create value by offering an enriching and
@@ -88,7 +91,7 @@
           </nuxt-link>
           <nuxt-link to="/whitefield/char-02" class="character">
             <img src="/iimb-demo/img/characters/char-02.png" />
-            <label>Arullamma</label>
+            <label>Arulamma</label>
           </nuxt-link>
           <nuxt-link to="/whitefield/char-03" class="character">
             <img src="/iimb-demo/img/characters/char-03.png" />
