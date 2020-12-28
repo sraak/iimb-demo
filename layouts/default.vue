@@ -61,7 +61,7 @@
       </div>
 
       <div class="footer__links">
-        <a href="#">info@studiotopophilia.in</a> |
+        <a href="#">info@studiotopophilia.com</a> |
         <a href="#"><i class="fab fa-instagram"></i></a> |
         <a href="#">+91 99721 14110</a>
       </div>
