@@ -48,7 +48,7 @@
               <div class="tooltip" style="left: 84%; top: 78.5%;">
                 O Form is how the name ‘Hope Farm’ sounds in the local dialect.
                 A colonial-period farmhouse of that name once stood at this
-                junction. Know More (click leads to Rose White character page).
+                junction.
               </div>
               <div
                 class="point point--four"
