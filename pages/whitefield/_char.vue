@@ -186,7 +186,7 @@ export default {
 
       popupImages: [
         '/iimb-demo/img/know-more.jpg',
-        '/iimb-demo/img/know-more2.jpg',
+        '/iimb-demo/img/know-more.jpg',
       ],
       currentImage: 0,
     }
